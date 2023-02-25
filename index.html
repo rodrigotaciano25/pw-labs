@@ -7,33 +7,46 @@
     <meta name="author" content="Rodrigo Taciano">
     <meta name="description" content="Website sobre Buenos Aires">
     <meta name="keywords" content="Buenos Aires">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <title>Buenos Aires</title>
 </head>
 
 <body>
-    <h1>Buenos Aires</h1>
-    <img src="images/buenos.jpg" alt="Buenos Aires">
-    <br>
-    <h2>Introdução</h2>
-    <p>Bela cidade à beira do Rio de la Plata.</p>
-    <br>
+    <header>
+        <h1 class="title">Buenos Aires</h1>
+        <figcaption><img src="images/buenos.jpg" alt="Buenos Aires" title="buenos aires"></figcaption>
+    </header>
+    <main>
+        <br>
+        <h2>Introdução</h2>
+        <p id="intro">Bela cidade à beira do Rio de la Plata.</p>
+        <br>
 
-    <p>
-    <ol>
-        <li><a href="local.html">Veja a localização de Buenos Aires.</a></li>
-        <li><a href="multimedia.html">Imagens de Buenos Aires.</a></li>
-        <li><a href="info.html">Outras informações de Buenos Aires.</a></li>
-    </ol>
-    </p>
-    <p>
-        <img src="images/wordlist.jpg" alt="Lista">
-    </p>
-    <p>
-        <b><a href="index.html">Introdução</a>
-            <a href="local.html">Localização</a>
-            <a href="multimedia.html">Multimedia</a>
-            <a href="info.html">Informação</a></b>
-    </p>
+        <p>
+        <ol>
+            <li><a href="local.html">Veja a localização de Buenos Aires.</a></li>
+            <li><a href="multimedia.html">Imagens de Buenos Aires.</a></li>
+            <li><a href="info.html">Outras informações de Buenos Aires.</a></li>
+        </ol>
+        </p>
+        <p>
+            <img src="images/wordlist.jpg" alt="Lista" title="buenos aires">
+        </p>
+
+        <nav><b><a class="nav-link" href="local.html">🗺️Localização</a>
+                <a class="nav-link" href="multimedia.html">📸Multimedia</a>
+                <a class="nav-link" href="info.html">📜Informação</a>
+                <a class="nav-link" href="quizz.html">❓Quizz da cidade</a>
+                <a class="nav-link" href="html5-css.html">📜HTML5-CSS</a></b></nav>
+
+    </main>
+
+    <footer>
+        <p>Rodrigo Taciano, a22204447, Universidade Lusófona de Lisboa, 2º ano.</p>
+    </footer>
 </body>
 
 </html>
